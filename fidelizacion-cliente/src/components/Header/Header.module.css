@@ -1,0 +1,31 @@
+.headerContainer {
+    width: 100%;
+    background: linear-gradient(#5ec6ec, #03afef);
+    display: flex;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 15px 20px 0 rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 15px 0 rgb(0 0 0 / 30%);
+}
+
+.rightSide {
+    margin-left: auto;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.dropdown {
+    background: transparent!important;
+    color: #fff!important;
+    padding: 5px!important;
+    border: 0px solid transparent!important;
+    vertical-align: middle;
+}
+
+.dropdown:focus {
+    border: 0px solid transparent!important;
+    color: #ffff!important;
+}

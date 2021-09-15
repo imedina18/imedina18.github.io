@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+      html,
+      body,
+      #root {
+        width: 100%;
+        height: 100%;
+        background: #ffff;
+      }
+  
+      @font-face {
+        font-family: "Lato-Bold";
+        src: url("%PUBLIC_URL%/fonts/Lato-Bold.ttf");
+      }
+  
+      @font-face {
+        font-family: "roboto-regular";
+        src: url("%PUBLIC_URL%/fonts/roboto-regular.woff2");
+      }
+
+  
+      * {
+        font-family: "roboto-regular";
+      }
+  
+      h1 {
+        font-size: 24px;
+        font-family: "Lato-Bold";
+      }
+  
+      .form-sgp {
+        border: none;
+        border-bottom: 1px solid #6c757d;
+        padding: 5px 10px;
+        outline: none !important;
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      }
+  
+      .form-sgp:focus {
+        border-bottom: 0.1rem solid #35afef;
+      }
+  
+      [placeholder]:focus::-webkit-input-placeholder {
+        transition: text-indent 0.4s 0.4s ease;
+        text-indent: -100%;
+        opacity: 1;
+      }
+  
+      .sgp-table thead {
+        background: linear-gradient(#5ec6ec, #03afef);
+        color: #ffffff;
+        font-family: Lato-Regular;
+        text-align: center;
+      }
+  
+      .sgp-table thead th {
+        vertical-align: middle;
+      }
+  
+      .sgp-table tbody tr td {
+        font-family: Lato-Light;
+        text-align: center;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 33.3%;
+}
+
+.icon {
+    height: 100px;
+}
+
+.cardTitle {
+    font-size: 22px;
+}
+
+.card {
+    background: #ffe048;
+    color: #15171c;
+    border-radius: 5px;
+}
+
+.cardHeader, .cardBody, .cardFooter {
+    border: 0px solid transparent;
+    background: #ffe048;
+    opacity: 1;
+}
+
+.cardFooter {
+    text-align: right;
+}
+
+.acceder {
+    font-size: 22px;
+}
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 100%!important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+    .container {
+        width: 100%!important;
+    }    
+}
+

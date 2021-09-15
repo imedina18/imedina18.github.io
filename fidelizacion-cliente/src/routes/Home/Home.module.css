@@ -1,0 +1,29 @@
+.content {
+    background: #fffff2;
+    /*min-height: 500px;*/
+    min-height: auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .content {
+        display: block!important;
+    }
+}
+
+@media (max-width: 576px) {
+  
+    .content {
+        display: block!important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+    .content {
+        display: block!important;
+    }
+}
